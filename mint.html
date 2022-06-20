@@ -754,7 +754,7 @@
                     >
                     <div
                       class="js-countdown-single-timer mt-3 flex space-x-4"
-                      data-countdown="2022-09-07T19:40:30"
+                      data-countdown="2022-07-09T19:40:30"
                       data-expired="This auction has ended"
                     >
                       <span class="countdown-days text-jacarta-700 dark:text-white">
@@ -1773,7 +1773,7 @@
 
     <!-- Place Bid Modal -->
     <div class="modal fade" id="placeBidModal" tabindex="-1" aria-labelledby="placeBidLabel" aria-hidden="true">
-      <div class="modal-dialog max-w-2xl">
+      <div class="modal-dialog max-w-2xl h-full">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="placeBidLabel">Place a bid</h5>
@@ -1796,7 +1796,10 @@
           <!-- Body -->
           <div class="modal-body p-6">
             <div class="mb-2 flex items-center justify-between">
-              <span class="font-display text-jacarta-700 text-sm font-semibold dark:text-white">Price</span>
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  1</span></label>
+              </div>
             </div>
 
             <div
@@ -1827,7 +1830,7 @@
                 type="text"
                 class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
                 placeholder="Amount"
-                value="0.05"
+                value="0.10"
               />
 
               <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
@@ -1836,33 +1839,327 @@
             </div>
 
             <div class="text-right">
-              <span class="dark:text-jacarta-400 text-sm">Balance: 0.0000 WETH</span>
+              <span class="dark:text-jacarta-400 text-sm">1 backer</span>
             </div>
 
             <!-- Terms -->
-            <div class="mt-4 flex items-center space-x-2">
-              <input
-                type="checkbox"
-                id="terms"
-                class="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0"
-              />
-              <label for="terms" class="dark:text-jacarta-200 text-sm"
-                >By checking this box, I agree to FAME's <a href="#" class="text-accent">Terms of Service</a></label
-              >
+            <!-- end body -->
+            <div class="modal-footer">
             </div>
           </div>
-          <!-- end body -->
 
-          <div class="modal-footer">
+          <!-- Body -->
+          <div class="modal-body p-6">
+            <div class="mb-2 flex items-center justify-between">
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  3</span></label>
+              </div>
+            </div>
+
+            <div
+                    class="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border"
+            >
+              <div class="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
+                <span>
+                  <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          y="0"
+                          viewBox="0 0 1920 1920"
+                          xml:space="preserve"
+                          class="mr-1 h-5 w-5"
+                  >
+                    <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                    <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                    <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                    <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                    <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                  </svg>
+                </span>
+                <span class="font-display text-jacarta-700 text-sm">ETH</span>
+              </div>
+
+              <input
+                      type="text"
+                      class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
+                      placeholder="Amount"
+                      value="0.30"
+              />
+
+              <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
+                <span class="self-center px-2 text-sm">$130.82</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="dark:text-jacarta-400 text-sm">21 backer</span>
+            </div>
+
+            <!-- end body -->
+            <div class="modal-footer">
+            </div>
+          </div>
+
+
+
+
+          <!-- Body -->
+          <div class="modal-body p-6">
+            <div class="mb-2 flex items-center justify-between">
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  5</span></label>
+            </div>
+            </div>
+
+            <div
+                    class="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border"
+            >
+              <div class="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
+                <span>
+                  <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          y="0"
+                          viewBox="0 0 1920 1920"
+                          xml:space="preserve"
+                          class="mr-1 h-5 w-5"
+                  >
+                    <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                    <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                    <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                    <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                    <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                  </svg>
+                </span>
+                <span class="font-display text-jacarta-700 text-sm">ETH</span>
+              </div>
+
+              <input
+                      type="text"
+                      class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
+                      placeholder="Amount"
+                      value="0.50"
+              />
+
+              <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
+                <span class="self-center px-2 text-sm">$130.82</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="dark:text-jacarta-400 text-sm">11 backer</span>
+            </div>
+
+
+            <!-- end body -->
+            <div class="modal-footer">
+            </div>
+          </div>
+
+
+          <!-- Body -->
+          <div class="modal-body p-6">
+            <div class="mb-2 flex items-center justify-between">
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  1 MA-1  x 1</span></label>
+            </div>
+
+            </div>
+
+            <div
+                    class="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border"
+            >
+              <div class="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
+                <span>
+                  <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          y="0"
+                          viewBox="0 0 1920 1920"
+                          xml:space="preserve"
+                          class="mr-1 h-5 w-5"
+                  >
+                    <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                    <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                    <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                    <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                    <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                  </svg>
+                </span>
+                <span class="font-display text-jacarta-700 text-sm">ETH</span>
+              </div>
+
+              <input
+                      type="text"
+                      class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
+                      placeholder="Amount"
+                      value="0.80"
+              />
+
+              <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
+                <span class="self-center px-2 text-sm">$130.82</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="dark:text-jacarta-400 text-sm">14 backer</span>
+            </div>
+
+
+            <!-- end body -->
+            <div class="modal-footer">
+            </div>
+          </div>
+
+
+          <!-- Body -->
+          <div class="modal-body p-6">
+            <div class="mb-2 flex items-center justify-between">
+
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  5
+MA-1  x 3</span></label>
+            </div>
+
+            </div>
+
+            <div
+                    class="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border"
+            >
+              <div class="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
+                <span>
+                  <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          y="0"
+                          viewBox="0 0 1920 1920"
+                          xml:space="preserve"
+                          class="mr-1 h-5 w-5"
+                  >
+                    <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                    <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                    <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                    <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                    <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                  </svg>
+                </span>
+                <span class="font-display text-jacarta-700 text-sm">ETH</span>
+              </div>
+
+              <input
+                      type="text"
+                      class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
+                      placeholder="Amount"
+                      value="2.90"
+              />
+
+              <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
+                <span class="self-center px-2 text-sm">$130.82</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="dark:text-jacarta-400 text-sm">14 backer</span>
+            </div>
+
+
+            <!-- end body -->
+            <div class="modal-footer">
+            </div>
+          </div>
+
+
+          <!-- Body -->
+          <div class="modal-body p-6">
+            <div class="mb-2 flex items-center justify-between">
+
+              <div class="class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"><span class="font-display text-jacarta-700 text-xl text-green font-semibold dark:text-white">Backer Token  x  10
+MA-1  x 5</span></label>
+            </div>
+            </div>
+
+            <div
+                    class="dark:border-jacarta-600 border-jacarta-100 relative mb-2 flex items-center overflow-hidden rounded-lg border"
+            >
+              <div class="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
+                <span>
+                  <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          y="0"
+                          viewBox="0 0 1920 1920"
+                          xml:space="preserve"
+                          class="mr-1 h-5 w-5"
+                  >
+                    <path fill="#8A92B2" d="M959.8 80.7L420.1 976.3 959.8 731z"></path>
+                    <path fill="#62688F" d="M959.8 731L420.1 976.3l539.7 319.1zm539.8 245.3L959.8 80.7V731z"></path>
+                    <path fill="#454A75" d="M959.8 1295.4l539.8-319.1L959.8 731z"></path>
+                    <path fill="#8A92B2" d="M420.1 1078.7l539.7 760.6v-441.7z"></path>
+                    <path fill="#62688F" d="M959.8 1397.6v441.7l540.1-760.6z"></path>
+                  </svg>
+                </span>
+                <span class="font-display text-jacarta-700 text-sm">ETH</span>
+              </div>
+
+              <input
+                      type="text"
+                      class="focus:ring-accent h-12 w-full flex-[3] border-0 focus:ring-inset"
+                      placeholder="Amount"
+                      value="5.00"
+              />
+
+              <div class="bg-jacarta-50 border-jacarta-100 flex flex-1 justify-end self-stretch border-l">
+                <span class="self-center px-2 text-sm">$130.82</span>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <span class="dark:text-jacarta-400 text-sm">14 backer</span>
+            </div>
+
+            <!-- Terms -->
             <div class="flex items-center justify-center space-x-4">
               <button
-                type="button"
-                class="bg-accent shadow-accent-volume hover:bg-accent-dark rounded-full py-3 px-8 text-center font-semibold text-white transition-all"
+                      type="button"
+                      class="bg-accent shadow-accent-volume hover:bg-accent-dark rounded-full py-3 px-8 mb-4 mt-2 text-center font-semibold text-white transition-all"
               >
-                Place Bid
+                Mint
               </button>
             </div>
+            <!-- end body -->
+            <div class="modal-footer">
+            </div>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
